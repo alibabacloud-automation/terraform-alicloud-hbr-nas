@@ -3,7 +3,7 @@ Terraform module which creates Hybrid Backup Recovery (HBR) for NAS on Alibaba C
 terraform-alicloud-hbr-nas
 =====================================================================
 
-English | [简体中文](README-CN.md)
+English | [简体中文](https://github.com/terraform-alicloud-modules/terraform-alicloud-hbr-nas/blob/main/README-CN.md)
 
 This module is used to create Hybrid Backup Recovery (HBR) for NAS on Alibaba Cloud.
 
