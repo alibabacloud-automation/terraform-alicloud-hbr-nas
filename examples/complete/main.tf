@@ -1,5 +1,9 @@
+resource "random_id" "default" {
+  byte_length = 4
+}
+
 resource "alicloud_hbr_vault" "default" {
-  vault_name = "tf-test-hbr-nas"
+  vault_name = "tf-test-hbr-nas-${random_id.default.hex}"
 }
 
 resource "alicloud_nas_file_system" "default" {
